@@ -7,7 +7,7 @@ import csv
 # 3) Use EmailHippo to verify email addresses.
 
 
-hunter = PyHunter('f42e45dfe52355a709850d900f9397bee562c668')
+hunter = PyHunter('$HUNTER_API_KEY')
 filename = 'Portland100+'
 # Read file & return a domains dictionary: {'company':{'domain':domain}}
 file = open(filename+'.txt','r')
