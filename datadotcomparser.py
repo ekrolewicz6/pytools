@@ -13,6 +13,7 @@ for i in range(1,5):
 		first_name = td.a.string.split(", ")[1]
 		last_name = td.a.string.split(", ")[0]
 		full_name = first_name + " " + last_name
+		# TODO This is ugly clean up.
 		company = td.next_sibling.next_sibling.a.string
 		title = td.next_sibling.next_sibling.next_sibling.next_sibling.string
 		city = td.next_sibling.next_sibling.next_sibling.next_sibling.next_sibling.next_sibling.string
