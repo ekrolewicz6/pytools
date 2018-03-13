@@ -2,9 +2,9 @@ from pyhunter import PyHunter
 import helpers as h
 import csv
 
-# 1) Get list of Domains
-# 2) Use Hunter to get list of email addresses
-# 3) Use EmailHippo to verify email addresses.
+# 1) Get list of Domains from file
+# 2) Use Hunter to get list of  email addresses
+# 3) Write domains to CSV
 
 
 hunter = PyHunter('$HUNTER_API_KEY')
